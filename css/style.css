@@ -1,0 +1,122 @@
+/* 页面底部 */
+footer {
+	width: 100%;
+	background-color: #f2f2f2;
+}
+
+/* 边距 */
+footer .footer-content {
+	margin: 0 auto;
+	max-width: 1380px;
+	padding: 20px;
+	display: flex;
+	flex-direction: row;
+}
+
+footer .footer-list {
+	width: 20%;
+	margin: 30px auto;
+	margin-bottom: 10px;
+}
+
+/* 子栏目 */
+footer .footer-list h3 {
+	font-size: 2em;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+footer .footer-list ul li {
+	margin: 1em auto;
+}
+
+/* 子栏目 */
+footer .footer-list ul li a {
+	color: #333;
+	font-size: 1.5em;
+}
+
+footer .footer-list ul li a:hover {
+	text-decoration: underline;
+}
+
+.address {
+	margin-top: 10px;
+	font-size: 1.5em;
+	color: #888;
+	position: relative;
+	margin: 20px auto;
+	max-width: 1200px;
+	padding: 0 40px;
+}
+/* 分割线 */
+.address .tel {
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #d6d6d6;
+}
+
+.address .tel a {
+	color: #0070c9;
+	text-decoration: none;
+}
+
+.address a:hover {
+	text-decoration: underline;
+}
+
+.address .copy div {
+	margin-bottom: 10px;
+}
+
+/* 调整距离 */
+.address .dot {
+	display: flex;
+	position: absolute;
+	top: 35px;
+	left: 350px;
+}
+
+.address .dot a {
+	border-right: 1px solid #d6d6d6;
+	margin-right: 7px;
+	padding-right: 10px;
+	display: inline-block;
+	margin-top: 5px;
+	white-space: nowrap;
+	color: #999;
+}
+
+.address .dot a:hover {
+	text-decoration: underline;
+}
+
+@media screen and (max-width: 768px) {
+	footer .footer-content {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	
+	footer .footer-list {
+		width: 90%;			/* 边距 */
+		margin: 5px 0;		/* 上下距离 */
+	}
+
+	.address {
+		font-size: 1em;		/* 字体大小 */
+		padding: 0 40px;	/* 字体边距 */
+	}
+
+	.address .dot {
+		display: flex;
+		position: absolute;
+		top: 44px;
+		left: 250px;
+	}
+
+	.address .dot a {
+		border: none;
+		padding-right: 0;
+	}
+}
