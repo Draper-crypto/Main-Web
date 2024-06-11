@@ -5,6 +5,7 @@
   --heo-white-op: rgba(255,255,255,0.2);
   --heo-black: #000;
   --heo-black-op: rgba(0,0,0,0.2);
+  --john-gray: #00001E;
   --heo-none: #00001e00;
   --heo-gray: #999999;
   --heo-gray-op: #9999992b;
@@ -595,7 +596,7 @@ a.second-link:hover {
 .special-card-left .tips {
   font-size: 18px;
   font-weight: bold;
-  color: var(--heo-white);
+  color: var(--john-gray); /* 大事件的色值 */
 }
 
 .special-card-left .title {
@@ -605,7 +606,7 @@ a.second-link:hover {
   line-height: 1.2;
   margin-top: 8px;
   max-width: calc(100% - 700px);
-  color: var(--heo-white);
+  color: var(--john-gray);  /* 标题的色值 */
 }
 
 .special-card-left .discription {
@@ -614,7 +615,7 @@ a.second-link:hover {
   opacity: 0.8;
   line-height: 1.2;
   max-width: calc(100% - 700px);
-  color: var(--heo-white);
+  color: var(--john-gray);  /* 简介的色值 */
 }
 
 .special-card-left .button-group {
